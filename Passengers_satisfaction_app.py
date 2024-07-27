@@ -44,7 +44,7 @@ def main():
 
     # Collect user input
     age = st.number_input("Age", min_value=1, max_value=100, value=30)
-    flight_distance = st.number_input("Flight Distance", min_value=1, max_value=10000, value=1000)
+    flight_distance = st.number_input("Flight Distance", min_value=1, max_value=10000, value=1000,step=500)
     departure_delay = st.number_input("Departure Delay in Minutes", min_value=0, value=0)
     arrival_delay = st.number_input("Arrival Delay in Minutes", min_value=0, value=0)
     gender = st.selectbox("Gender", options=["Male", "Female"])
