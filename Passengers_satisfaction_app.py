@@ -82,7 +82,7 @@ def main():
         if prediction[0] == 1:
             st.success("The passenger is satisfied.")
         else:
-            st.error("The passenger is not satisfied.")
+            st.success("The passenger is not satisfied.")
 
 if __name__ == "__main__":
     main()
